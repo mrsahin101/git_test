@@ -3,6 +3,9 @@
 #include "sensor.h"
 #include "motor.h"
 
+/*This is simple project to test how git working and learn git.
+mrsahin101 31.10.2021 */
+
 uint32_t temperature = 25;
 
 int main(int argc, char *argv[]) {

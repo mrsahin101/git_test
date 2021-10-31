@@ -1,6 +1,9 @@
 #include "motor.h"
 #include "main.h"
 #include <stdio.h>
+
+
+
 void cooling_motor_on(void)
 {
 	while(temperature >= 25)
