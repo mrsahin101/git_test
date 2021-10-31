@@ -12,7 +12,7 @@ void cooling_motor_on(void)
 }
 void heating_motor_on(void)
 {
-	while(temperature <= 20)
+	while(temperature <= 25)
 	{
 		printf("Heating system is on. Current Temperature : %d\n",temperature);
 		temperature++;
